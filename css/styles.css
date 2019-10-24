@@ -5,6 +5,8 @@
 }
 
 body {
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-size: 16px;
   background-image: url(../images/table.jpg);
   background-size: cover;
@@ -17,7 +19,7 @@ body {
   max-width: 900px;
   min-height: 100vh;
   margin: 0 auto;
-  padding: 70px 50px 60px;
+  padding: 40px 50px 250px;
   background-image: url(../images/oldPaper.png);
   background-size: cover;
   background-position: center;
@@ -33,13 +35,27 @@ h2 {
   color: rgb(28, 4, 49);
 }
 
+h1:first-letter {
+  font-size: 100px;
+  color: rgb(173, 26, 6);
+}
+
 h2 {
+  margin-bottom: 15px;
   font-size: 50px;
 }
 
 a {
   font-size: 25px;
-  color: rgb(243, 46, 20);
+  color: rgb(173, 26, 6);
+}
+
+.stack {
+  font-size: 25px;
+}
+
+.githab {
+  color: rgb(28, 4, 49);
 }
 
 .article h2 {
@@ -51,13 +67,25 @@ a {
 
 ol {
   padding-right: 50px;
-  padding-left: 50px;
+  padding-left: 65px;
 }
 
 li {
+  margin-bottom: 10px;
   font-family: "Kaushan Script", cursive;
-  font-size: 20px;
+  font-size: 22px;
   color: #000;
+}
+
+.sing-wrap {
+  position: absolute; 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 330px;
+  height: 150px;
+  bottom: 50px;
+  right: 70px;
 }
 
 .seal {
@@ -67,9 +95,6 @@ li {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  position: absolute;
-  bottom: 40px;
-  right: 70px;
 }
 
 .signature {
@@ -77,5 +102,5 @@ li {
   font-family: "Parisienne", cursive;
   font-size: 40px;
   color: #000;
-  padding-left: 300px;
+  line-height: 150px;
 }
