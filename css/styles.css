@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  background-image: url(../images/table.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 900px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 70px 50px 60px;
+  background-image: url(../images/oldPaper.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2 {
+  margin: 0 auto;
+  font-size: 70px;
+  text-align: center;
+  font-family: "Niconne", cursive;
+  color: rgb(28, 4, 49);
+}
+
+h2 {
+  font-size: 50px;
+}
+
+a {
+  font-size: 25px;
+  color: rgb(243, 46, 20);
+}
+
+.article h2 {
+  margin-bottom: 40px;
+  font-size: 50px;
+  text-align: left;
+  font-family: "Niconne", cursive;
+}
+
+ol {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+li {
+  font-family: "Kaushan Script", cursive;
+  font-size: 20px;
+  color: #000;
+}
+
+.seal {
+  width: 150px;
+  height: 150px;
+  background-image: url(../images/seal.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 40px;
+  right: 70px;
+}
+
+.signature {
+  display: block;
+  font-family: "Parisienne", cursive;
+  font-size: 40px;
+  color: #000;
+  padding-left: 300px;
+}
