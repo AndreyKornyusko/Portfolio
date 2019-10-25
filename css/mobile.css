@@ -1,0 +1,161 @@
+body {
+  padding-top: 35px;
+  padding-bottom: 30px;
+  font-size: 16px;
+  background-image: url(../images/table.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 900px;
+  min-width: 290px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 20px 20px 150px;
+  background-image: url(../images/oldPaper.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2 {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Niconne", cursive;
+  color: rgb(28, 4, 49);
+}
+
+h1:first-letter {
+  font-size: 60px;
+  color: rgb(173, 26, 6);
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 35px;
+  line-height: 35px;
+}
+
+a {
+  font-size: 20px;
+  color: rgb(173, 26, 6);
+}
+
+.stack {
+  font-size: 20px;
+}
+
+.githab {
+  color: rgb(28, 4, 49);
+}
+
+h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Niconne", cursive;
+}
+
+ol {
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-family: "Kaushan Script", cursive;
+  font-size: 20px;
+  color: #000;
+}
+
+.sing-wrap {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 180px;
+  height: 60px;
+  bottom: 70px;
+  right: 30px;
+}
+
+.seal {
+  width: 60px;
+  height: 60px;
+  background-image: url(../images/seal.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.signature {
+  display: block;
+  font-family: "Parisienne", cursive;
+  font-size: 25px;
+  color: #000;
+  line-height: 60px;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-image: url(../images/table.jpg);
+  }
+
+  .wrapper {
+    padding: 40px 25px 250px;
+    background-image: url(../images/oldPaper.png);
+  }
+
+  h1 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  h1:first-letter {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  a {
+    font-size: 22px;
+  }
+
+  .stack {
+    font-size: 22px;
+  }
+
+  ol {
+    padding-left: 25px;
+  }
+
+  li {
+    font-size: 22px;
+  }
+
+  .sing-wrap {
+    width: 230px;
+    height: 80px;
+    right: 70px;
+  }
+
+  .seal {
+    width: 80px;
+    height: 80px;
+    background-image: url(../images/seal.png);
+  }
+
+  .signature {
+    font-size: 35px;
+    line-height: 80px;
+  }
+}
