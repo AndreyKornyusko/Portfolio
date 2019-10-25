@@ -1,9 +1,30 @@
 @media screen and (min-width: 768px) {
   body {
+    background-image: url(../images/table768.jpg);
   }
 
   .wrapper {
+    max-width: 768px;
+    min-height: 987px;
+
     padding: 40px 50px 250px;
+    background-image: url(../images/oldPaper1000.png);
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    body {
+      background-image: url(../images/table1024.jpg);
+    }
+    .wrapper {
+      padding: 40px 50px 250px;
+      background-image: url(../images/oldPaper1440.png);
+    }
+
+    .seal {
+      width: 150px;
+      height: 150px;
+      background-image: url(../images/seal200.png);
+    }
   }
 
   h1 {
@@ -20,7 +41,7 @@
     line-height: 50px;
   }
 
-  a {
+  .app-name {
     font-size: 25px;
   }
 
@@ -39,16 +60,16 @@
   }
 
   .sing-wrap {
-    width: 330px;
+    width: 350px;
     height: 150px;
-    bottom: 70px;
+    bottom: 90px;
     right: 70px;
   }
 
   .seal {
     width: 150px;
     height: 150px;
-    background-image: url(../images/seal.png);
+    background-image: url(../images/seal150.png);
   }
 
   .signature {

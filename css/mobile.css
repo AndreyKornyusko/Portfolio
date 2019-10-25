@@ -2,7 +2,7 @@ body {
   padding-top: 35px;
   padding-bottom: 30px;
   font-size: 16px;
-  background-image: url(../images/table.jpg);
+  background-image: url(../images/table480.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,12 +10,12 @@ body {
 
 .wrapper {
   position: relative;
-  max-width: 900px;
+  max-width: 480px;
   min-width: 290px;
   min-height: 100vh;
   margin: 0 auto;
   padding: 20px 20px 150px;
-  background-image: url(../images/oldPaper.png);
+  background-image: url(../images/oldPaper480.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,11 +24,14 @@ body {
 h1,
 h2 {
   margin: 0 auto;
+  text-align: center;
+  font-family: "Niconne", cursive;
+}
+
+h1 {
   margin-bottom: 10px;
   font-size: 50px;
   line-height: 50px;
-  text-align: center;
-  font-family: "Niconne", cursive;
   color: rgb(28, 4, 49);
 }
 
@@ -39,13 +42,17 @@ h1:first-letter {
 
 h2 {
   margin-bottom: 10px;
-  font-size: 35px;
-  line-height: 35px;
+  font-size: 40px;
+  line-height: 40px;
 }
 
-a {
+.app-name {
   font-size: 20px;
   color: rgb(173, 26, 6);
+}
+
+.attantion {
+  color: rgb(134, 74, 74);
 }
 
 .stack {
@@ -79,16 +86,16 @@ li {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
-  width: 180px;
+  width: 190px;
   height: 60px;
-  bottom: 70px;
+  bottom: 90px;
   right: 30px;
 }
 
 .seal {
   width: 60px;
   height: 60px;
-  background-image: url(../images/seal.png);
+  background-image: url(../images/seal60.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -102,14 +109,19 @@ li {
   line-height: 60px;
 }
 
+.pen {
+  display: none;
+}
+
 @media screen and (min-width: 480px) {
   body {
-    background-image: url(../images/table.jpg);
+    background-image: url(../images/table768.jpg);
   }
 
   .wrapper {
+    max-width: 768px;
     padding: 40px 25px 250px;
-    background-image: url(../images/oldPaper.png);
+    background-image: url(../images/oldPaper768.png);
   }
 
   h1 {
@@ -121,12 +133,17 @@ li {
     font-size: 80px;
   }
 
+  .name {
+    text-decoration: none;
+    color: #000;
+  }
+
   h2 {
     font-size: 40px;
     line-height: 40px;
   }
 
-  a {
+  .app-name {
     font-size: 22px;
   }
 
@@ -143,7 +160,7 @@ li {
   }
 
   .sing-wrap {
-    width: 230px;
+    width: 260px;
     height: 80px;
     right: 70px;
   }
@@ -151,11 +168,12 @@ li {
   .seal {
     width: 80px;
     height: 80px;
-    background-image: url(../images/seal.png);
+    background-image: url(../images/seal150.png);
   }
 
   .signature {
     font-size: 35px;
     line-height: 80px;
+    text-decoration: none;
   }
 }

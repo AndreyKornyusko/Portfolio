@@ -1,2 +1,194 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 960px) {
+  body {
+    background-image: url(../images/table1024.jpg);
+  }
+
+  @media screen and (orientation: landscape) {
+    .wrapper {
+      background-size: cover;
+    }
+  }
+
+  .wrapper {
+    max-width: 900px;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-image: url(../images/oldPaper768.png);
+    background-size: contain;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  li {
+    width: 300px;
+  }
+
+  li:nth-child(odd) {
+    margin-right: 20px;
+  }
+
+  .seal {
+    background-image: url(../images/seal.png);
+  }
+
+  .sing-wrap {
+    bottom: 120px;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    body {
+      background-image: url(../images/table2560.jpg);
+    }
+    .wrapper {
+      padding: 40px 50px 250px;
+      background-image: url(../images/oldPaper1440.png);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .wrapper {
+    background-size: contain;
+  }
+
+  @media screen and (orientation: landscape) {
+    .wrapper {
+      background-size: cover;
+    }
+  }
+
+  .pen {
+    display: block;
+    position: absolute;
+    width: 260px;
+    height: 759px;
+    right: -105px;
+    bottom: 100px;
+    background-image: url(../images/pen.png);
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  @media screen and (orientation: landscape) {
+    .wrapper {
+      background-size: cover;
+    }
+  }
+
+  .wrapper {
+    max-width: 900px;
+    min-height: 1285px;
+    padding-top: 100px;
+    background-image: url(../images/oldPaper1000.png);
+    background-size: contain;
+  }
+
+  ol {
+    padding-right: 50px;
+    padding-left: 115px;
+  }
+
+  .sing-wrap {
+    right: 150px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  body {
+    background-image: url(../images/table2560.jpg);
+  }
+
+  @media screen and (orientation: landscape) {
+    .wrapper {
+      background-size: cover;
+    }
+  }
+
+  .wrapper {
+    max-width: 1440px;
+    min-height: 1850px;
+    background-image: url(../images/oldPaper1440.png);
+  }
+
+  h1 {
+    font-size: 140px;
+    line-height: 140px;
+  }
+
+  h1:first-letter {
+    font-size: 200px;
+  }
+
+  h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .app-name {
+    font-size: 40px;
+  }
+
+  .stack {
+    font-size: 40px;
+  }
+
+  ol {
+    padding-right: 50px;
+    padding-left: 65px;
+  }
+
+  li {
+    width: 550px;
+    margin-bottom: 10px;
+    font-size: 38px;
+  }
+
+  .seal {
+    background-image: url(../images/seal200.png);
+  }
+
+  .pen {
+    width: 343px;
+    height: 1000px;
+    right: -145px;
+    bottom: 80px;
+    background-image: url(../images/pen2560.png);
+  }
+
+  .sing-wrap {
+    width: 540px;
+    height: 200px;
+    bottom: 150px;
+    right: 200px;
+  }
+
+  .seal {
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/seal200.png);
+  }
+
+  .signature {
+    font-size: 70px;
+    line-height: 200px;
+  }
 }
