@@ -46,13 +46,21 @@ h2 {
   line-height: 40px;
 }
 
+h2:hover {
+  color: rgb(112, 108, 108);
+}
+
 .app-name {
   font-size: 20px;
   color: rgb(173, 26, 6);
 }
 
+.app-name:hover {
+  color: rgb(250, 37, 9);
+}
+
 .attantion {
-  color: rgb(134, 74, 74);
+  color: rgb(177, 63, 63);
 }
 
 .stack {
@@ -61,6 +69,9 @@ h2 {
 
 .githab {
   color: rgb(28, 4, 49);
+}
+.githab:hover {
+  color: rgb(128, 18, 224);
 }
 
 h2 {
@@ -113,6 +124,10 @@ li {
   color: #000;
   line-height: 80px;
   text-decoration: none;
+}
+
+.signature:hover {
+  color: rgb(112, 108, 108);
 }
 
 .pen {
